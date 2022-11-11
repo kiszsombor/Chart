@@ -66,6 +66,7 @@
     </ApplicationDefinition>
     <Compile Include="Models\Data.cs" />
     <Compile Include="Models\JsonReader.cs" />
+    <Compile Include="ViewModels\MultiAxesChartViewModel.cs" />
     <Compile Include="Views\SectionsExample.xaml.cs">
       <DependentUpon>SectionsExample.xaml</DependentUpon>
     </Compile>
@@ -120,5 +121,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
