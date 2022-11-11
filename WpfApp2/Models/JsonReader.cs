@@ -28,7 +28,7 @@ namespace WpfApp2.Models
         public void ReadJson(string fileName)
         {
             string jsonString = File.ReadAllText(fileName);
-            Data data = JsonConvert.DeserializeObject<Data>(jsonString);
+            data = JsonConvert.DeserializeObject<List<Data>>(jsonString);
         }
     }
 }
